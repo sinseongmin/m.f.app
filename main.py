@@ -6,7 +6,7 @@ st.text('／n／n')
 st.write('안녕하시오. 나는 □□이다')
 st.write('나의 이메일 주소는 23_10514@daejin.sen.hs.kr 이다')
 
-image_url = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.inven.co.kr%2Fboard%2Flostark%2F4811%2F2332780&psig=AOvVaw0ZNPFPUDKsz1ViwDwrrYVs&ust=1736390567783000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMDLqYqN5YoDFQAAAAAdAAAAABAE"
+image_url = "https://mblogthumb-phinf.pstatic.net/MjAyMjAxMjVfMjIy/MDAxNjQzMTAyOTg1MTc0.iCRKrVZvLQgyEfwKYVyGDQAM5R6Rm8Kbh6KOr9Rc2ykg.8-XafjqGUwLSQIa-G_8L6wonoOGwJBmKqAA0yLIOGWMg.JPEG.minziminzi128/IMG_7373.JPG?type=w800"
 st.image(image_url, use_column_width=True)
 
 st.button("초기화", type="primary")
