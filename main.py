@@ -6,17 +6,11 @@ st.text('／n／n')
 st.write('안녕하시오. 나는 □□이다')
 st.write('나의 이메일 주소는 23_10514@daejin.sen.hs.kr 이다')
 
-st.markdown(
-    <style>
-    .highlight-text {
-        color: red;
-        font-weight: bold;
-        font-size: 50px;
-    }
-    </style>
-,
-    unsafe_allow_html=True,
-)
+ colored_text = f"""
+    <div style="color: red; font-size: 20px; font-weight: bold;">
+        {name}님, 랜덤 숫자는 {random_number}입니다!
+    </div>
+    """
 
 st.button("초기화", type="primary")
 if st.button("난수 생성"):
