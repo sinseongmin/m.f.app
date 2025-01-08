@@ -12,8 +12,7 @@ st.image(image_url, use_column_width=True)
 
 st.button("초기화", type="primary")
 
-if st.button("무작위 나무위키 열기"):
-    random_url = "https://namu.wiki/random"
-    webbrowser.open(random_url)
+if st.button("난수생성"):
+     st.write(random.randint(1,1000))
 else:
     st.write("잘가")
