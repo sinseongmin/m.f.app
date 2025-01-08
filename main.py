@@ -31,6 +31,7 @@ if st.button("무작위 페이지 열기"):
     
     # 브라우저에서 해당 URL 열기
     webbrowser.open(random_url)
+     
     st.success("무작위 페이지를 열었습니다!")
 else:
     st.write("버튼을 클릭하여 무작위 나무위키 페이지를 열어보세요!")
