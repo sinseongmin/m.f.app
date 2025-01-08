@@ -6,7 +6,8 @@ st.text('／n／n')
 st.write('안녕하시오. 나는 □□이다')
 st.write('나의 이메일 주소는 23_10514@daejin.sen.hs.kr 이다')
 
-st.title(https://i.namu.wiki/i/DxxnonYmddt8njMYPO0Mogb0eGS-4rxun2-6godbXnMT78C8BXNvYxQZHiVCQ_s64yhi9mCDesCzdi0Ods-F5tEr_Z3ccQUw7rzBJAUYZNlckDwafJZBW_-WOSbAOm9hHGWOuGsUxUNqbaOQ6XXU2w.webp)
+image_url = "https://i.namu.wiki/i/DxxnonYmddt8njMYPO0Mogb0eGS-4rxun2-6godbXnMT78C8BXNvYxQZHiVCQ_s64yhi9mCDesCzdi0Ods-F5tEr_Z3ccQUw7rzBJAUYZNlckDwafJZBW_-WOSbAOm9hHGWOuGsUxUNqbaOQ6XXU2w.webp"
+st.image(image_url, caption="이것은 URL에서 불러온 이미지입니다!", use_column_width=True)
 
 st.button("초기화", type="primary")
 if st.button("난수 생성"):
